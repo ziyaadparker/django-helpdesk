@@ -23,19 +23,19 @@
         {% include "helpdesk/navigation-sidebar.html" %}
 
         <div id="content-wrapper">
-        
+
             <div class="container-fluid">
 
                 <!-- Breadcrumbs-->
                 <ol class="breadcrumb">
                     {% block helpdesk_breadcrumb %}{% endblock %}
                 </ol>
-            
+
                 {% block helpdesk_body %}{% endblock %}
-            
+
             </div>
             <!-- /.container-fluid -->
-        
+
             {% include "helpdesk/attribution.html" %}
         </div>
         <!-- /.content-wrapper -->
